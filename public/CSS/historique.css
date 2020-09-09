@@ -1,0 +1,52 @@
+html, body {
+    background-color:#111111;
+    color: #d9d9d9;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+
+}
+
+.lst1{
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 2%;
+}
+
+.lst1 li{
+  text-decoration: none;
+  list-style: circle;
+}
+
+.lst1 .button-s[type="submit"]{
+  border: 12px;
+  border-radius: 20px;
+  background: rgba(255, 0, 0, 0.55);
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 3px 7px;
+  text-align: center;
+  border: 18px;
+  border: 1px solid rgba(255, 0, 0, 1);
+}
+
+.lst1 .button{
+  border: 12px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 20px;
+  background: rgba(11, 178, 145, 0.555);
+  font-size: 16px;
+  padding: 3px 7px;
+  text-align: center;
+  border: 18px;
+  border: 1px solid rgba(0, 255, 238, 0.473);
+}

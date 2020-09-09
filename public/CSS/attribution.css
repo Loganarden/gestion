@@ -1,0 +1,78 @@
+html, body {
+    background-color: #111111;
+    color: #d9d9d9;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    height: 100%;
+    margin: 0;
+    width: 100%;
+}
+
+input[type="nom"],
+input[type="poste"],
+input[type=date],
+input[type=time],
+textarea,
+select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #008DAA;
+    background: transparent;
+    margin-bottom: 10px;
+    height: 45px;
+    font-size: 17px;
+    color: white;
+}
+
+input[type="submit"] {
+    border: 12px;
+    border-radius: 20px;
+    background: rgba(11, 178, 145, 0.555);
+    font-size: 25px;
+    padding: 3px 7px;
+    text-align: center;
+    border: 18px;
+    border: 1px solid rgba(0, 255, 238, 0.473);
+    ;
+}
+
+fieldset {
+    margin-top: 10%;
+    height: 100%;
+    padding: 0 20px 20px 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 2px solid #008DAA;
+}
+
+legend {
+    color: #fff7f7;
+    font-weight: 50
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+/*  .top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}*/
+
+.content {
+    text-align: center;
+}

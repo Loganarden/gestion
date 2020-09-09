@@ -1,0 +1,35 @@
+html, body {
+    background-color: #111111;
+    color: #d9d9d9;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    height: 100vh;
+    margin: 0;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.content {
+    text-align: center;
+}
+
+.title {
+    font-size: 70px;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+}

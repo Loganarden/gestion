@@ -1,0 +1,113 @@
+html, body {
+    background-color:#111111;
+    color: #d9d9d9;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+
+}
+
+input[type="nom"],
+input[type="prenom"],
+textarea,
+select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #008DAA;
+    background: transparent;
+    margin-bottom: 10px;
+    height: 45px;
+    font-size: 17px;
+    color: white;
+}
+
+.ordi1{
+  align-content: center;
+  align-items: center;
+  float: left;
+  width: 48%;
+  padding: 3px;
+  margin-top: 10%;
+}
+
+.ordi1 .sb[type="submit"] {
+    border: 12px;
+    border-radius: 20px;
+    background: rgba(11, 178, 145, 0.555);
+    font-size: 20px;
+    padding: 3px 7px;
+    text-align: center;
+    border: 18px;
+    border: 1px solid rgba(0, 255, 238, 0.473);
+}
+
+.ordi1 fieldset {
+    margin-left: 25%;
+    width: 50%;
+    padding: 0 20px 20px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid #008DAA;
+}
+
+.ordi1 legend{
+      color: #fff7f7;
+}
+
+.lst1{
+  align-items: center;
+  align-content: center;
+  height: 100%;
+  float: right;
+  width: 50%;
+}
+
+.lst1 li{
+  text-decoration: none;
+  list-style: circle;
+}
+
+
+.lst1 .button-s[type="submit"]{
+  border: 12px;
+  border-radius: 20px;
+  background: rgba(255, 0, 0, 0.55);
+  font-size: 16px;
+  font-weight: lighter;
+  padding: 3px 7px;
+  text-align: center;
+  border: 18px;
+  border: 1px solid rgba(255, 0, 0, 1);
+}
+
+.lst1 .button{
+  border: 12px;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 20px;
+  background: rgba(11, 178, 145, 0.555);
+  font-size: 16px;
+  padding: 3px 7px;
+  text-align: center;
+  border: 18px;
+  border: 1px solid rgba(0, 255, 238, 0.473);
+}
+
+.lst2{
+  margin-left: 20%;
+  margin-right: 0;
+  margin-top: 5%;
+  margin-bottom: 2%;
+
+}
